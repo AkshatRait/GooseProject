@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: sans-serif;
+}
+
+
+body{
+    margin-left: 30px;
+    background-color: skyblue;
+
+    width: 600px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: rgba(0, 128, 0, 0.733);
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+
+    background-color: transparent;
+    color: white;
+}
+
+li{
+font-weight: 600;
+}
+
+
+button:hover{
+    background-color:darkolivegreen;
+}
+
+.moose_img{
+    height: 142px;
+    width: 237px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ContentOne{
+display: flex;
+justify-content: flex-end;
+
+padding-left: 10px ;
+margin-top: 0%;
+}
+
+
+.ContentOne p{
+    margin-top: 0;
+}
+
+
+#About-Sarah{
+display: flex;
+}
+
+
+h1{
+    font-weight: 700;
+}
+
+h2{
+    /* border-style: solid; */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+    font-weight: 700;
+}
+
+.sections{
+    padding:0;
+}
+
+.sections ol{
+    margin-top: 10;
+}
+
+a{
+    color: purple;
+}
+
+.sections a{
+}
